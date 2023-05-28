@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montañas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1><span id="title"></span><span class="cursor">|</span></h1>
+  </header>
+  <main>
+    <section>
+      <h2><span id="intro-title"></span><span class="cursor">|</span></h2>
+      <p><span id="intro-text"></span><span class="cursor">|</span></p>
+    </section>
+    <section>
+      <h2><span id="gallery-title"></span><span class="cursor">|</span></h2>
+      <div class="gallery">
+        <div class="image-container">
+          <img src="img/montanas-rocosas_d3fc9015.jpg" alt="Montaña 1" data-color="#ff0000">
+        </div>
+        <div class="image-container">
+          <img src="img/OIP.jfif" alt="Montaña 2" data-color="#00ff00">
+        </div>
+        <div class="image-container">
+          <img src="img/R.jfif" alt="Montaña 3" data-color="#0000ff">
+        </div>
+      </div>
+    </section>
+    <div class="buttons">
+      <button onclick="prevImage()">Anterior</button>
+      <button onclick="nextImage()">Siguiente</button>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Montañas. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
